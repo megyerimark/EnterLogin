@@ -15,4 +15,12 @@ export class LoginComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  onKeyup(event:any){
+    console.log(event.key)
+    if(event.key =="Enter"){
+
+    alert("megnyomtad az entert")}
+
+  }
+
 }

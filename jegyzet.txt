@@ -16,3 +16,23 @@ set-ExecutionPolicy RemoteSigned -Scope CurrentUser  // ( ez akkor kell ha nem m
 Reaktív űrlapok. -- 
     -Kell a ReactiveFormModule - importálni az app.module.ts-ben
 
+
+    keyup - minden lenymott billentyűre érvényes (billentyű felengedése)-
+
+    Hogy derül ki ,hogy milyen billentyűt engedünk fel ?
+
+    //componensben.html  -- (keyup)="onKeyup($event)
+
+
+    onKeyup(event:any){
+    alert(event.key)
+
+  }
+
+  kiírja hogy melyik gombot nyomtad le !
+
+
+
+
+  Következő dolgozatban - Reaktív űrlap és enterre is működjön.
+
