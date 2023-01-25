@@ -1,6 +1,18 @@
 Enter nyomással történő bejelentkezés.
 
 
-ng new keyup
+ng new keyup a projekt neve.
 
+Komponenct hozunk létre, 
+Login - legyártása 
+
+ng g c  Login --ng generate component login /npx
+
+
+set-ExecutionPolicy RemoteSigned -Scope CurrentUser  // ( ez akkor kell ha nem működik az ng parancs , csak az npx-el).
+
+
+
+Reaktív űrlapok. -- 
+    -Kell a ReactiveFormModule - importálni az app.module.ts-ben
 
