@@ -35,4 +35,5 @@ Reaktív űrlapok. --
 
 
   Következő dolgozatban - Reaktív űrlap és enterre is működjön.
+  2023.02.01 - dolgozat!
 
